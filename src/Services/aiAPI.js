@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5001/api/evaluate";
+const API_URL = "https://ai-interview-simulator-gfza.onrender.com/api/evaluate";
 
 export const evaluateAnswer = async (question, answer) => {
   try {
@@ -32,7 +32,7 @@ export const generateQuestions = async (
 ) => {
   try {
     const response = await fetch(
-      "http://localhost:5001/api/generate-questions",
+      "https://ai-interview-simulator-gfza.onrender.com/api/generate-questions",
       {
         method: "POST",
         headers: {
