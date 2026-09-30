@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/interviews";
+const API_URL = "https://ai-interview-database.onrender.com/interviews";
 
 export const saveInterview = async (interviewData) => {
   try {
