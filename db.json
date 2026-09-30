@@ -1,0 +1,1049 @@
+{
+  "interviews": [
+    {
+      "role": "Full Stack Developer",
+      "experience": "1 - 3 Years",
+      "difficulty": "Hard",
+      "interviewType": "HR",
+      "score": 26,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "react is a front end library used to create dynamic webpages",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer is accurate, but it is too brief and lacks detail. While React is indeed a front-end library used for dynamic web pages, a good answer should mention key concepts like components, the Virtual DOM, and reusability.\n\nStrengths:\nThe candidate correctly identified that React is a front-end library and its primary purpose (creating dynamic webpages).\n\nImprovements:\nThe candidate should expand on *why* it is used. Mentioning features like component-based architecture, the Virtual DOM for better performance, reusability, and its popularity/ecosystem would make the answer much stronger for a fresher interview."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "both are functions in react",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 1/10\n\nFeedback:\nThe candidate's answer is technically true—both are indeed functions (Hooks) in React—but it is far too brief and lacks any explanation of their actual purposes or differences.\n\nStrengths:\nThe candidate correctly identified that both `useState` and `useEffect` are functions in React.\n\nImprovements:\nThe candidate needs to explain the specific purpose of each Hook. They should mention that `useState` is used for managing component state (remembering data), while `useEffect` is used for handling side effects (like fetching data or updating the DOM)."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "let const and var are declarations used in es6 version of javascript",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 3/10\n\nFeedback:\nThe candidate's answer is incomplete and partially incorrect. While `let` and `const` were introduced in ES6 (ES2015), `var` has been part of JavaScript since the beginning. Furthermore, the answer does not explain the actual differences in how these keywords work regarding scope, hoisting, and re-assignment.\n\nStrengths:\nThe candidate correctly identified that `let` and `const` are related to ES6 and are used for variable declarations.\n\nImprovements:\nThe candidate needs to explain the key differences, specifically:\n- **Scope:** `var` is function-scoped, while `let` and `const` are block-scoped.\n- **Re-assignment:** `let` and `var` allow re-assignment, whereas `const` creates a constant variable that cannot be re-assigned.\n- **Hoisting:** Explain how they behave differently during hoisting (e.g., the Temporal Dead Zone for `let` and `const`)."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "collecting varibales from the outerscope",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer is extremely brief and contains a spelling mistake (\"varibales\", \"outerscope\"). While the core idea of accessing variables from an outer scope is technically on the right track, the definition is incomplete and lacks technical clarity, especially regarding *how* closures work (functions remembering their lexical scope even when executed outside of it).\n\nStrengths:\nThe candidate correctly identified the fundamental concept that closures involve accessing variables from an outer scope.\n\nImprovements:\nThe candidate should provide a more complete definition and explain *why* closures are useful or *how* they work in JavaScript, ideally mentioning lexical scoping and giving a simple code example. They should also pay attention to spelling and grammar."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "to fetch data",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 1/10\n\nFeedback:\nThe candidate's answer is extremely incomplete and lacks any technical substance. It does not explain how data is actually fetched in React.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to learn the actual methods used for data fetching in React, such as using the native `fetch()` function or libraries like `axios`, combined with React hooks like `useEffect` and `useState`."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:13:33.665Z",
+      "id": "gr-11dseMfs"
+    },
+    {
+      "role": "Full Stack Developer",
+      "experience": "1 - 3 Years",
+      "difficulty": "Hard",
+      "interviewType": "HR",
+      "score": 26,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "react is a front end library used to create dynamic webpages",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer is accurate, but it is too brief and lacks detail. While React is indeed a front-end library used for dynamic web pages, a good answer should mention key concepts like components, the Virtual DOM, and reusability.\n\nStrengths:\nThe candidate correctly identified that React is a front-end library and its primary purpose (creating dynamic webpages).\n\nImprovements:\nThe candidate should expand on *why* it is used. Mentioning features like component-based architecture, the Virtual DOM for better performance, reusability, and its popularity/ecosystem would make the answer much stronger for a fresher interview."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "both are functions in react",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 1/10\n\nFeedback:\nThe candidate's answer is technically true—both are indeed functions (Hooks) in React—but it is far too brief and lacks any explanation of their actual purposes or differences.\n\nStrengths:\nThe candidate correctly identified that both `useState` and `useEffect` are functions in React.\n\nImprovements:\nThe candidate needs to explain the specific purpose of each Hook. They should mention that `useState` is used for managing component state (remembering data), while `useEffect` is used for handling side effects (like fetching data or updating the DOM)."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "let const and var are declarations used in es6 version of javascript",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 3/10\n\nFeedback:\nThe candidate's answer is incomplete and partially incorrect. While `let` and `const` were introduced in ES6 (ES2015), `var` has been part of JavaScript since the beginning. Furthermore, the answer does not explain the actual differences in how these keywords work regarding scope, hoisting, and re-assignment.\n\nStrengths:\nThe candidate correctly identified that `let` and `const` are related to ES6 and are used for variable declarations.\n\nImprovements:\nThe candidate needs to explain the key differences, specifically:\n- **Scope:** `var` is function-scoped, while `let` and `const` are block-scoped.\n- **Re-assignment:** `let` and `var` allow re-assignment, whereas `const` creates a constant variable that cannot be re-assigned.\n- **Hoisting:** Explain how they behave differently during hoisting (e.g., the Temporal Dead Zone for `let` and `const`)."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "collecting varibales from the outerscope",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer is extremely brief and contains a spelling mistake (\"varibales\", \"outerscope\"). While the core idea of accessing variables from an outer scope is technically on the right track, the definition is incomplete and lacks technical clarity, especially regarding *how* closures work (functions remembering their lexical scope even when executed outside of it).\n\nStrengths:\nThe candidate correctly identified the fundamental concept that closures involve accessing variables from an outer scope.\n\nImprovements:\nThe candidate should provide a more complete definition and explain *why* closures are useful or *how* they work in JavaScript, ideally mentioning lexical scoping and giving a simple code example. They should also pay attention to spelling and grammar."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "to fetch data",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 1/10\n\nFeedback:\nThe candidate's answer is extremely incomplete and lacks any technical substance. It does not explain how data is actually fetched in React.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to learn the actual methods used for data fetching in React, such as using the native `fetch()` function or libraries like `axios`, combined with React hooks like `useEffect` and `useState`."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:13:33.666Z",
+      "id": "u7we54l0sek"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Medium",
+      "interviewType": "Technical",
+      "score": 0,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "ddd",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"ddd\") is nonsensical and fails to provide any information about what React is or why it is used. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to provide a complete and meaningful answer. For this specific question, they should explain that React is a JavaScript library for building user interfaces, mention its component-based architecture, and highlight why it is used (e.g., reusability, virtual DOM for performance, and ease of creating dynamic web applications)."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "vvsfsg",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"vvsfsg\") is gibberish and does not address the interview question at all. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to provide a coherent answer by studying the core concepts of React, specifically understanding that `useState` is used for managing component state and `useEffect` is used for handling side effects like data fetching or subscriptions."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "jhgf",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random keyboard typing (\"jhgf\") and does not address the interview question at all. No knowledge of JavaScript variables was demonstrated.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually attempt the question and study the fundamental concepts of JavaScript, specifically variable declarations (`var`, `let`, and `const`), scope, and hoisting."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "jhgf",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random keyboard characters (\"jhgf\") and does not address the question about closures in JavaScript. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the concept of closures in JavaScript (which is a function bundled together with references to its surrounding state) and provide a clear, coherent definition during an interview instead of typing random characters."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "plkmn",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"plkmn\") is completely nonsensical and does not address the interview question at all. It appears to be random keyboard smashing.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to provide a relevant, thoughtful answer. To answer this question properly, they should mention using the `fetch` API or `axios` inside a `useEffect` hook, and handling the loading and error states."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:25:55.841Z",
+      "id": "MRO7EcCRfj4"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Medium",
+      "interviewType": "Technical",
+      "score": 0,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "ddd",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"ddd\") is nonsensical and fails to provide any information about what React is or why it is used. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to provide a complete and meaningful answer. For this specific question, they should explain that React is a JavaScript library for building user interfaces, mention its component-based architecture, and highlight why it is used (e.g., reusability, virtual DOM for performance, and ease of creating dynamic web applications)."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "vvsfsg",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"vvsfsg\") is gibberish and does not address the interview question at all. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to provide a coherent answer by studying the core concepts of React, specifically understanding that `useState` is used for managing component state and `useEffect` is used for handling side effects like data fetching or subscriptions."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "jhgf",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random keyboard typing (\"jhgf\") and does not address the interview question at all. No knowledge of JavaScript variables was demonstrated.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually attempt the question and study the fundamental concepts of JavaScript, specifically variable declarations (`var`, `let`, and `const`), scope, and hoisting."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "jhgf",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random keyboard characters (\"jhgf\") and does not address the question about closures in JavaScript. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the concept of closures in JavaScript (which is a function bundled together with references to its surrounding state) and provide a clear, coherent definition during an interview instead of typing random characters."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "plkmn",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"plkmn\") is completely nonsensical and does not address the interview question at all. It appears to be random keyboard smashing.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to provide a relevant, thoughtful answer. To answer this question properly, they should mention using the `fetch` API or `axios` inside a `useEffect` hook, and handling the loading and error states."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:25:55.841Z",
+      "id": "Tyy3v_wDJb8"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Medium",
+      "interviewType": "Technical",
+      "score": 0,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "jdjdjkff",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and contains random keyboard smashing (\"jdjdjkff\") instead of an actual response. It shows no understanding of what React is or why it is used.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the basic concept of React (a JavaScript library for building user interfaces developed by Facebook) and prepare standard interview answers before attending an interview."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "hffjksfljk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and does not address the interview question at all. It appears to be random keyboard smashing.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the core concepts of React hooks (`useState` and `useEffect`) and provide clear, relevant explanations during an interview instead of submitting random text."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "jsdjksdjk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random letters (\"jsdjksdjk\") and does not address the interview question about JavaScript variables at all. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually answer the question by explaining the differences between `let`, `const`, and `var` in JavaScript (such as scope, re-assignment, and hoisting)."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "fofhj",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"fofhj\") is gibberish and does not contain any relevant information about JavaScript or closures. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand what a closure is in JavaScript (a function that remembers its outer variables even after the outer function has closed) and provide a clear, coherent explanation during an interview."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "liir",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"liir\") is gibberish and does not answer the question at all. It shows no understanding of how to fetch data in React.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to study the fundamentals of React, specifically how to use the `useEffect` hook and the `fetch()` API or libraries like Axios to retrieve data from a backend server."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:32:56.488Z",
+      "id": "rcphD_DaLd0"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Medium",
+      "interviewType": "Technical",
+      "score": 0,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "jdjdjkff",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and contains random keyboard smashing (\"jdjdjkff\") instead of an actual response. It shows no understanding of what React is or why it is used.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the basic concept of React (a JavaScript library for building user interfaces developed by Facebook) and prepare standard interview answers before attending an interview."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "hffjksfljk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and does not address the interview question at all. It appears to be random keyboard smashing.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the core concepts of React hooks (`useState` and `useEffect`) and provide clear, relevant explanations during an interview instead of submitting random text."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "jsdjksdjk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random letters (\"jsdjksdjk\") and does not address the interview question about JavaScript variables at all. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually answer the question by explaining the differences between `let`, `const`, and `var` in JavaScript (such as scope, re-assignment, and hoisting)."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "fofhj",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"fofhj\") is gibberish and does not contain any relevant information about JavaScript or closures. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand what a closure is in JavaScript (a function that remembers its outer variables even after the outer function has closed) and provide a clear, coherent explanation during an interview."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "liir",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"liir\") is gibberish and does not answer the question at all. It shows no understanding of how to fetch data in React.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to study the fundamentals of React, specifically how to use the `useEffect` hook and the `fetch()` API or libraries like Axios to retrieve data from a backend server."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:32:56.488Z",
+      "id": "X9g_B74aZ4o"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Medium",
+      "interviewType": "Technical",
+      "score": 0,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "jdjdjkff",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and contains random keyboard smashing (\"jdjdjkff\") instead of an actual response. It shows no understanding of what React is or why it is used.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the basic concept of React (a JavaScript library for building user interfaces developed by Facebook) and prepare standard interview answers before attending an interview."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "hffjksfljk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and does not address the interview question at all. It appears to be random keyboard smashing.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the core concepts of React hooks (`useState` and `useEffect`) and provide clear, relevant explanations during an interview instead of submitting random text."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "jsdjksdjk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random letters (\"jsdjksdjk\") and does not address the interview question about JavaScript variables at all. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually answer the question by explaining the differences between `let`, `const`, and `var` in JavaScript (such as scope, re-assignment, and hoisting)."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "fofhj",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"fofhj\") is gibberish and does not contain any relevant information about JavaScript or closures. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand what a closure is in JavaScript (a function that remembers its outer variables even after the outer function has closed) and provide a clear, coherent explanation during an interview."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "liir",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"liir\") is gibberish and does not answer the question at all. It shows no understanding of how to fetch data in React.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to study the fundamentals of React, specifically how to use the `useEffect` hook and the `fetch()` API or libraries like Axios to retrieve data from a backend server."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:45:43.775Z",
+      "id": "bo6ACTe05Qs"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Medium",
+      "interviewType": "Technical",
+      "score": 0,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "jdjdjkff",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and contains random keyboard smashing (\"jdjdjkff\") instead of an actual response. It shows no understanding of what React is or why it is used.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the basic concept of React (a JavaScript library for building user interfaces developed by Facebook) and prepare standard interview answers before attending an interview."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "hffjksfljk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and does not address the interview question at all. It appears to be random keyboard smashing.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the core concepts of React hooks (`useState` and `useEffect`) and provide clear, relevant explanations during an interview instead of submitting random text."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "jsdjksdjk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random letters (\"jsdjksdjk\") and does not address the interview question about JavaScript variables at all. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually answer the question by explaining the differences between `let`, `const`, and `var` in JavaScript (such as scope, re-assignment, and hoisting)."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "fofhj",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"fofhj\") is gibberish and does not contain any relevant information about JavaScript or closures. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand what a closure is in JavaScript (a function that remembers its outer variables even after the outer function has closed) and provide a clear, coherent explanation during an interview."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "liir",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"liir\") is gibberish and does not answer the question at all. It shows no understanding of how to fetch data in React.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to study the fundamentals of React, specifically how to use the `useEffect` hook and the `fetch()` API or libraries like Axios to retrieve data from a backend server."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:45:43.775Z",
+      "id": "R7wTN62lyBk"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Medium",
+      "interviewType": "Technical",
+      "score": 0,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "jdjdjkff",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and contains random keyboard smashing (\"jdjdjkff\") instead of an actual response. It shows no understanding of what React is or why it is used.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the basic concept of React (a JavaScript library for building user interfaces developed by Facebook) and prepare standard interview answers before attending an interview."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "hffjksfljk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and does not address the interview question at all. It appears to be random keyboard smashing.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the core concepts of React hooks (`useState` and `useEffect`) and provide clear, relevant explanations during an interview instead of submitting random text."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "jsdjksdjk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random letters (\"jsdjksdjk\") and does not address the interview question about JavaScript variables at all. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually answer the question by explaining the differences between `let`, `const`, and `var` in JavaScript (such as scope, re-assignment, and hoisting)."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "fofhj",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"fofhj\") is gibberish and does not contain any relevant information about JavaScript or closures. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand what a closure is in JavaScript (a function that remembers its outer variables even after the outer function has closed) and provide a clear, coherent explanation during an interview."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "liir",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"liir\") is gibberish and does not answer the question at all. It shows no understanding of how to fetch data in React.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to study the fundamentals of React, specifically how to use the `useEffect` hook and the `fetch()` API or libraries like Axios to retrieve data from a backend server."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:45:54.996Z",
+      "id": "fhBkdmKgeU8"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Medium",
+      "interviewType": "Technical",
+      "score": 0,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is React and why is it used?",
+          "answer": "jdjdjkff",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and contains random keyboard smashing (\"jdjdjkff\") instead of an actual response. It shows no understanding of what React is or why it is used.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the basic concept of React (a JavaScript library for building user interfaces developed by Facebook) and prepare standard interview answers before attending an interview."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "What is the difference between useState and useEffect in React?",
+          "answer": "hffjksfljk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer is completely incoherent and does not address the interview question at all. It appears to be random keyboard smashing.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand the core concepts of React hooks (`useState` and `useEffect`) and provide clear, relevant explanations during an interview instead of submitting random text."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between let, const, and var in JavaScript?",
+          "answer": "jsdjksdjk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random letters (\"jsdjksdjk\") and does not address the interview question about JavaScript variables at all. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually answer the question by explaining the differences between `let`, `const`, and `var` in JavaScript (such as scope, re-assignment, and hoisting)."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is a closure in JavaScript?",
+          "answer": "fofhj",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"fofhj\") is gibberish and does not contain any relevant information about JavaScript or closures. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to understand what a closure is in JavaScript (a function that remembers its outer variables even after the outer function has closed) and provide a clear, coherent explanation during an interview."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "How do you fetch data from an API in React?",
+          "answer": "liir",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"liir\") is gibberish and does not answer the question at all. It shows no understanding of how to fetch data in React.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to study the fundamentals of React, specifically how to use the `useEffect` hook and the `fetch()` API or libraries like Axios to retrieve data from a backend server."
+          }
+        }
+      ],
+      "date": "2026-09-29T18:45:54.996Z",
+      "id": "gFek0znkidk"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Easy",
+      "interviewType": "Technical",
+      "score": 46,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is the difference between HTML and HTML5?",
+          "answer": "html is the older version and the html5 is the current version",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer is technically correct in stating that HTML5 is the newer version, but it is far too brief and lacks any technical details. A good answer should highlight specific differences, such as new features, tags, and multimedia support.\n\nStrengths:\n- The candidate correctly identified the chronological relationship between HTML and HTML5.\n\nImprovements:\n- The candidate should mention key features introduced in HTML5, such as native support for audio and video (`<audio>`, `<video>`), semantic tags (`<header>`, `<footer>`, `<article>`), and better error handling."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "How do you center a div horizontally and vertically using CSS?",
+          "answer": "By using flex property",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer mentions the right direction (Flexbox), but it is too brief, vague, and technically incomplete. Simply saying \"using flex property\" does not explain how to actually achieve the centering.\n\nStrengths:\nThe candidate correctly identified that Flexbox is a modern and effective tool for centering elements.\n\nImprovements:\nThe candidate should provide the specific CSS properties and values required to complete the task (e.g., `display: flex`, `justify-content: center`, and `align-items: center`). For a fresher, it is also beneficial to know alternative methods like CSS Grid or `position: absolute` with `transform`."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between `let`, `const`, and `var` in JavaScript?",
+          "answer": "let and var are allows reassignment but const does not allow reassignment",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate correctly identified the main difference regarding reassignment (`const` cannot be reassigned, while `let` and `var` can), but the answer is incomplete. It misses crucial concepts such as scope (`var` is function-scoped, while `let` and `const` are block-scoped) and hoisting.\n\nStrengths:\n- Correctly stated the rule regarding variable reassignment for all three keywords.\n\nImprovements:\n- Mention the difference in scoping rules (function scope vs. block scope).\n- Briefly explain hoisting and the Temporal Dead Zone for `let` and `const`."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is the Document Object Model (DOM), and how do you select an element by its ID using JavaScript?",
+          "answer": "dom is virtual representation of page..we select element by calling getelementByid()",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 5/10\n\nFeedback:\nThe candidate's answer is very brief and informal. While they touched upon the basic concept of the DOM and the correct method name, the explanation lacks technical accuracy and detail, and the JavaScript syntax provided is incorrect (case sensitivity and missing object reference).\n\nStrengths:\n- Correctly identified that the DOM represents the page.\n- Mentioned the correct method (`getElementById`) used to select elements by ID.\n\nImprovements:\n- Provide a more complete and professional definition of the DOM (Document Object Model), explaining that it is a programming interface for HTML and XML documents representing the page as a tree structure.\n- Write code with correct JavaScript syntax and capitalization, such as `document.getElementById('id')`.\n- Communicate in full sentences and avoid overly casual shorthand."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "What are CSS media queries, and why are they used in web development?",
+          "answer": "css media queries are used to make the webpages responsive based on the screen size of each devices",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 6/10\n\nFeedback:\nThe candidate's answer is partially correct and captures the core purpose of CSS media queries (responsiveness and screen size). However, it is a bit too brief and misses other factors media queries can check, such as device orientation and resolution. \n\nStrengths:\nThe candidate correctly identified that media queries are used for responsive web design and are based on the device's screen size.\n\nImprovements:\nThe candidate should elaborate more by mentioning that media queries allow developers to apply different CSS styles depending on device characteristics (like width, height, and resolution), not just screen size. Fixing basic grammar and capitalization would also make the answer more professional."
+          }
+        }
+      ],
+      "date": "2026-09-29T19:02:53.557Z",
+      "id": "Ekedq0u4PL8"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Easy",
+      "interviewType": "Technical",
+      "score": 46,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is the difference between HTML and HTML5?",
+          "answer": "html is the older version and the html5 is the current version",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer is technically correct in stating that HTML5 is the newer version, but it is far too brief and lacks any technical details. A good answer should highlight specific differences, such as new features, tags, and multimedia support.\n\nStrengths:\n- The candidate correctly identified the chronological relationship between HTML and HTML5.\n\nImprovements:\n- The candidate should mention key features introduced in HTML5, such as native support for audio and video (`<audio>`, `<video>`), semantic tags (`<header>`, `<footer>`, `<article>`), and better error handling."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "How do you center a div horizontally and vertically using CSS?",
+          "answer": "By using flex property",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer mentions the right direction (Flexbox), but it is too brief, vague, and technically incomplete. Simply saying \"using flex property\" does not explain how to actually achieve the centering.\n\nStrengths:\nThe candidate correctly identified that Flexbox is a modern and effective tool for centering elements.\n\nImprovements:\nThe candidate should provide the specific CSS properties and values required to complete the task (e.g., `display: flex`, `justify-content: center`, and `align-items: center`). For a fresher, it is also beneficial to know alternative methods like CSS Grid or `position: absolute` with `transform`."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between `let`, `const`, and `var` in JavaScript?",
+          "answer": "let and var are allows reassignment but const does not allow reassignment",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate correctly identified the main difference regarding reassignment (`const` cannot be reassigned, while `let` and `var` can), but the answer is incomplete. It misses crucial concepts such as scope (`var` is function-scoped, while `let` and `const` are block-scoped) and hoisting.\n\nStrengths:\n- Correctly stated the rule regarding variable reassignment for all three keywords.\n\nImprovements:\n- Mention the difference in scoping rules (function scope vs. block scope).\n- Briefly explain hoisting and the Temporal Dead Zone for `let` and `const`."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is the Document Object Model (DOM), and how do you select an element by its ID using JavaScript?",
+          "answer": "dom is virtual representation of page..we select element by calling getelementByid()",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 5/10\n\nFeedback:\nThe candidate's answer is very brief and informal. While they touched upon the basic concept of the DOM and the correct method name, the explanation lacks technical accuracy and detail, and the JavaScript syntax provided is incorrect (case sensitivity and missing object reference).\n\nStrengths:\n- Correctly identified that the DOM represents the page.\n- Mentioned the correct method (`getElementById`) used to select elements by ID.\n\nImprovements:\n- Provide a more complete and professional definition of the DOM (Document Object Model), explaining that it is a programming interface for HTML and XML documents representing the page as a tree structure.\n- Write code with correct JavaScript syntax and capitalization, such as `document.getElementById('id')`.\n- Communicate in full sentences and avoid overly casual shorthand."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "What are CSS media queries, and why are they used in web development?",
+          "answer": "css media queries are used to make the webpages responsive based on the screen size of each devices",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 6/10\n\nFeedback:\nThe candidate's answer is partially correct and captures the core purpose of CSS media queries (responsiveness and screen size). However, it is a bit too brief and misses other factors media queries can check, such as device orientation and resolution. \n\nStrengths:\nThe candidate correctly identified that media queries are used for responsive web design and are based on the device's screen size.\n\nImprovements:\nThe candidate should elaborate more by mentioning that media queries allow developers to apply different CSS styles depending on device characteristics (like width, height, and resolution), not just screen size. Fixing basic grammar and capitalization would also make the answer more professional."
+          }
+        }
+      ],
+      "date": "2026-09-29T19:02:53.558Z",
+      "id": "jYxp_aAr3CQ"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Easy",
+      "interviewType": "Technical",
+      "score": 46,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is the difference between HTML and HTML5?",
+          "answer": "html is the older version and the html5 is the current version",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer is technically correct in stating that HTML5 is the newer version, but it is far too brief and lacks any technical details. A good answer should highlight specific differences, such as new features, tags, and multimedia support.\n\nStrengths:\n- The candidate correctly identified the chronological relationship between HTML and HTML5.\n\nImprovements:\n- The candidate should mention key features introduced in HTML5, such as native support for audio and video (`<audio>`, `<video>`), semantic tags (`<header>`, `<footer>`, `<article>`), and better error handling."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "How do you center a div horizontally and vertically using CSS?",
+          "answer": "By using flex property",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer mentions the right direction (Flexbox), but it is too brief, vague, and technically incomplete. Simply saying \"using flex property\" does not explain how to actually achieve the centering.\n\nStrengths:\nThe candidate correctly identified that Flexbox is a modern and effective tool for centering elements.\n\nImprovements:\nThe candidate should provide the specific CSS properties and values required to complete the task (e.g., `display: flex`, `justify-content: center`, and `align-items: center`). For a fresher, it is also beneficial to know alternative methods like CSS Grid or `position: absolute` with `transform`."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between `let`, `const`, and `var` in JavaScript?",
+          "answer": "let and var are allows reassignment but const does not allow reassignment",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate correctly identified the main difference regarding reassignment (`const` cannot be reassigned, while `let` and `var` can), but the answer is incomplete. It misses crucial concepts such as scope (`var` is function-scoped, while `let` and `const` are block-scoped) and hoisting.\n\nStrengths:\n- Correctly stated the rule regarding variable reassignment for all three keywords.\n\nImprovements:\n- Mention the difference in scoping rules (function scope vs. block scope).\n- Briefly explain hoisting and the Temporal Dead Zone for `let` and `const`."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is the Document Object Model (DOM), and how do you select an element by its ID using JavaScript?",
+          "answer": "dom is virtual representation of page..we select element by calling getelementByid()",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 5/10\n\nFeedback:\nThe candidate's answer is very brief and informal. While they touched upon the basic concept of the DOM and the correct method name, the explanation lacks technical accuracy and detail, and the JavaScript syntax provided is incorrect (case sensitivity and missing object reference).\n\nStrengths:\n- Correctly identified that the DOM represents the page.\n- Mentioned the correct method (`getElementById`) used to select elements by ID.\n\nImprovements:\n- Provide a more complete and professional definition of the DOM (Document Object Model), explaining that it is a programming interface for HTML and XML documents representing the page as a tree structure.\n- Write code with correct JavaScript syntax and capitalization, such as `document.getElementById('id')`.\n- Communicate in full sentences and avoid overly casual shorthand."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "What are CSS media queries, and why are they used in web development?",
+          "answer": "css media queries are used to make the webpages responsive based on the screen size of each devices",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 6/10\n\nFeedback:\nThe candidate's answer is partially correct and captures the core purpose of CSS media queries (responsiveness and screen size). However, it is a bit too brief and misses other factors media queries can check, such as device orientation and resolution. \n\nStrengths:\nThe candidate correctly identified that media queries are used for responsive web design and are based on the device's screen size.\n\nImprovements:\nThe candidate should elaborate more by mentioning that media queries allow developers to apply different CSS styles depending on device characteristics (like width, height, and resolution), not just screen size. Fixing basic grammar and capitalization would also make the answer more professional."
+          }
+        }
+      ],
+      "date": "2026-09-29T19:04:01.634Z",
+      "id": "gPnFO4XegDs"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Easy",
+      "interviewType": "Technical",
+      "score": 46,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is the difference between HTML and HTML5?",
+          "answer": "html is the older version and the html5 is the current version",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer is technically correct in stating that HTML5 is the newer version, but it is far too brief and lacks any technical details. A good answer should highlight specific differences, such as new features, tags, and multimedia support.\n\nStrengths:\n- The candidate correctly identified the chronological relationship between HTML and HTML5.\n\nImprovements:\n- The candidate should mention key features introduced in HTML5, such as native support for audio and video (`<audio>`, `<video>`), semantic tags (`<header>`, `<footer>`, `<article>`), and better error handling."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "How do you center a div horizontally and vertically using CSS?",
+          "answer": "By using flex property",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer mentions the right direction (Flexbox), but it is too brief, vague, and technically incomplete. Simply saying \"using flex property\" does not explain how to actually achieve the centering.\n\nStrengths:\nThe candidate correctly identified that Flexbox is a modern and effective tool for centering elements.\n\nImprovements:\nThe candidate should provide the specific CSS properties and values required to complete the task (e.g., `display: flex`, `justify-content: center`, and `align-items: center`). For a fresher, it is also beneficial to know alternative methods like CSS Grid or `position: absolute` with `transform`."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between `let`, `const`, and `var` in JavaScript?",
+          "answer": "let and var are allows reassignment but const does not allow reassignment",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate correctly identified the main difference regarding reassignment (`const` cannot be reassigned, while `let` and `var` can), but the answer is incomplete. It misses crucial concepts such as scope (`var` is function-scoped, while `let` and `const` are block-scoped) and hoisting.\n\nStrengths:\n- Correctly stated the rule regarding variable reassignment for all three keywords.\n\nImprovements:\n- Mention the difference in scoping rules (function scope vs. block scope).\n- Briefly explain hoisting and the Temporal Dead Zone for `let` and `const`."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is the Document Object Model (DOM), and how do you select an element by its ID using JavaScript?",
+          "answer": "dom is virtual representation of page..we select element by calling getelementByid()",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 5/10\n\nFeedback:\nThe candidate's answer is very brief and informal. While they touched upon the basic concept of the DOM and the correct method name, the explanation lacks technical accuracy and detail, and the JavaScript syntax provided is incorrect (case sensitivity and missing object reference).\n\nStrengths:\n- Correctly identified that the DOM represents the page.\n- Mentioned the correct method (`getElementById`) used to select elements by ID.\n\nImprovements:\n- Provide a more complete and professional definition of the DOM (Document Object Model), explaining that it is a programming interface for HTML and XML documents representing the page as a tree structure.\n- Write code with correct JavaScript syntax and capitalization, such as `document.getElementById('id')`.\n- Communicate in full sentences and avoid overly casual shorthand."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "What are CSS media queries, and why are they used in web development?",
+          "answer": "css media queries are used to make the webpages responsive based on the screen size of each devices",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 6/10\n\nFeedback:\nThe candidate's answer is partially correct and captures the core purpose of CSS media queries (responsiveness and screen size). However, it is a bit too brief and misses other factors media queries can check, such as device orientation and resolution. \n\nStrengths:\nThe candidate correctly identified that media queries are used for responsive web design and are based on the device's screen size.\n\nImprovements:\nThe candidate should elaborate more by mentioning that media queries allow developers to apply different CSS styles depending on device characteristics (like width, height, and resolution), not just screen size. Fixing basic grammar and capitalization would also make the answer more professional."
+          }
+        }
+      ],
+      "date": "2026-09-29T19:04:01.635Z",
+      "id": "5_4xQiU4Gbk"
+    },
+    {
+      "role": "Backend Developer",
+      "experience": "1 - 3 Years",
+      "difficulty": "Hard",
+      "interviewType": "Technical",
+      "score": 10,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "Walk through the internals of how a relational database executes a complex query involving multiple joins and aggregations. How does the query planner decide between using a Hash Join, Merge Join, or Nested Loop, and how would you optimize this if an index isn't being utilized?",
+          "answer": "dont know the answer\n",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate did not provide an answer to the question, stating \"dont know the answer.\" As a result, no technical knowledge could be evaluated.\n\nStrengths:\nThe candidate was honest rather than trying to guess or bluff their way through a complex technical topic.\n\nImprovements:\nThe candidate should study relational database internals—specifically focusing on the execution lifecycle of a query, the differences between join algorithms (Nested Loop, Hash, Merge), and how to use tools like `EXPLAIN` to troubleshoot and fix unutilized indexes."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "Design a thread-safe in-memory Least Recently Used (LRU) cache from scratch. Explain your choice of underlying data structures to achieve $O(1)$ time complexity for both `get` and `put` operations, and detail how you would handle concurrency control under heavy multithreaded contention without causing massive lock contention.",
+          "answer": "no idea",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate did not provide an answer to the question, stating \"no idea.\" Therefore, no technical evaluation can be performed. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate should study fundamental data structures (such as Hash Maps and Doubly Linked Lists), understand how they combine to create an LRU cache with $O(1)$ time complexity, and learn basic multithreading concepts like locks and thread safety in programming."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "In a microservices architecture handling millions of requests per day, you encounter a cascading failure caused by one downstream service timing out. How would you architect a robust resilience strategy using Circuit Breakers, Bulkheads, and Exponential Backoff with Jitter? Explain the state transitions of a circuit breaker in detail.",
+          "answer": "tuff qn",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 1/10\n\nFeedback:\nThe candidate provided a very brief, informal, and incomplete response (\"tuff qn\") that failed to answer any part of the technical interview question about microservices resilience.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to study core system design concepts such as Circuit Breakers, Bulkheads, and Exponential Backoff. In a real interview, candidates should attempt to explain what they know rather than giving up, even when faced with difficult questions."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "Explain how database isolation levels (specifically Read Committed, Repeatable Read, and Serializable) prevent concurrency anomalies like Non-Repeatable Reads, Phantom Reads, and Write Skew. Under the hood, how do Pessimistic Locking (SELECT ... FOR UPDATE) and Optimistic Concurrency Control (OCC) achieve this, and what are the trade-offs at scale?",
+          "answer": "this qn completely tramautized me",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate did not provide an answer to the technical question. Instead, they expressed an emotional reaction (\"this qn completely tramautized me\"). While database concurrency is a notoriously difficult topic, no technical concepts were explained.\n\nStrengths:\nNone demonstrated for this question.\n\nImprovements:\nThe candidate needs to study database isolation levels (Read Committed, Repeatable Read, Serializable), concurrency anomalies, and locking mechanisms (Pessimistic vs. Optimistic). In a real interview, it is much better to attempt the question or break down what you *do* know rather than leaving it blank, as interviewers often look for problem-solving and communication skills even when you don't know the full answer."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "You are building an asynchronous event-driven system using a message broker like RabbitMQ or Apache Kafka. How do you guarantee \"exactly-once\" or \"at-least-once\" message processing semantics in the consumer application, and how do you handle idempotency when the same message is processed multiple times due to network partitions or consumer crashes?",
+          "answer": "sorry",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate did not provide an answer to the technical question, simply stating \"sorry\". Therefore, no evaluation of their knowledge regarding message brokers, processing semantics, or idempotency can be made.\n\nStrengths:\n- None demonstrated.\n\nImprovements:\n- The candidate should attempt to answer the question to the best of their ability, even if they are unsure, by explaining basic concepts like retries or duplicate handling."
+          }
+        }
+      ],
+      "date": "2026-09-29T19:08:35.938Z",
+      "id": "OVRt90eECSI"
+    },
+    {
+      "role": "Backend Developer",
+      "experience": "1 - 3 Years",
+      "difficulty": "Hard",
+      "interviewType": "Technical",
+      "score": 10,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "Walk through the internals of how a relational database executes a complex query involving multiple joins and aggregations. How does the query planner decide between using a Hash Join, Merge Join, or Nested Loop, and how would you optimize this if an index isn't being utilized?",
+          "answer": "dont know the answer\n",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate did not provide an answer to the question, stating \"dont know the answer.\" As a result, no technical knowledge could be evaluated.\n\nStrengths:\nThe candidate was honest rather than trying to guess or bluff their way through a complex technical topic.\n\nImprovements:\nThe candidate should study relational database internals—specifically focusing on the execution lifecycle of a query, the differences between join algorithms (Nested Loop, Hash, Merge), and how to use tools like `EXPLAIN` to troubleshoot and fix unutilized indexes."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "Design a thread-safe in-memory Least Recently Used (LRU) cache from scratch. Explain your choice of underlying data structures to achieve $O(1)$ time complexity for both `get` and `put` operations, and detail how you would handle concurrency control under heavy multithreaded contention without causing massive lock contention.",
+          "answer": "no idea",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate did not provide an answer to the question, stating \"no idea.\" Therefore, no technical evaluation can be performed. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate should study fundamental data structures (such as Hash Maps and Doubly Linked Lists), understand how they combine to create an LRU cache with $O(1)$ time complexity, and learn basic multithreading concepts like locks and thread safety in programming."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "In a microservices architecture handling millions of requests per day, you encounter a cascading failure caused by one downstream service timing out. How would you architect a robust resilience strategy using Circuit Breakers, Bulkheads, and Exponential Backoff with Jitter? Explain the state transitions of a circuit breaker in detail.",
+          "answer": "tuff qn",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 1/10\n\nFeedback:\nThe candidate provided a very brief, informal, and incomplete response (\"tuff qn\") that failed to answer any part of the technical interview question about microservices resilience.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to study core system design concepts such as Circuit Breakers, Bulkheads, and Exponential Backoff. In a real interview, candidates should attempt to explain what they know rather than giving up, even when faced with difficult questions."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "Explain how database isolation levels (specifically Read Committed, Repeatable Read, and Serializable) prevent concurrency anomalies like Non-Repeatable Reads, Phantom Reads, and Write Skew. Under the hood, how do Pessimistic Locking (SELECT ... FOR UPDATE) and Optimistic Concurrency Control (OCC) achieve this, and what are the trade-offs at scale?",
+          "answer": "this qn completely tramautized me",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate did not provide an answer to the technical question. Instead, they expressed an emotional reaction (\"this qn completely tramautized me\"). While database concurrency is a notoriously difficult topic, no technical concepts were explained.\n\nStrengths:\nNone demonstrated for this question.\n\nImprovements:\nThe candidate needs to study database isolation levels (Read Committed, Repeatable Read, Serializable), concurrency anomalies, and locking mechanisms (Pessimistic vs. Optimistic). In a real interview, it is much better to attempt the question or break down what you *do* know rather than leaving it blank, as interviewers often look for problem-solving and communication skills even when you don't know the full answer."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "You are building an asynchronous event-driven system using a message broker like RabbitMQ or Apache Kafka. How do you guarantee \"exactly-once\" or \"at-least-once\" message processing semantics in the consumer application, and how do you handle idempotency when the same message is processed multiple times due to network partitions or consumer crashes?",
+          "answer": "sorry",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate did not provide an answer to the technical question, simply stating \"sorry\". Therefore, no evaluation of their knowledge regarding message brokers, processing semantics, or idempotency can be made.\n\nStrengths:\n- None demonstrated.\n\nImprovements:\n- The candidate should attempt to answer the question to the best of their ability, even if they are unsure, by explaining basic concepts like retries or duplicate handling."
+          }
+        }
+      ],
+      "date": "2026-09-29T19:08:35.939Z",
+      "id": "syKKJgQrwoo"
+    },
+    {
+      "role": "Frontend Developer",
+      "experience": "Fresher",
+      "difficulty": "Easy",
+      "interviewType": "Technical",
+      "score": 45,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is the difference between HTML and HTML5, and what are some new semantic elements introduced in HTML5?",
+          "answer": "html is the older version and html 5 is the current version we uses..semantic tags are navbar,header,footer etc",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 5/10\n\nFeedback:\nThe candidate's answer is very brief and basic. While it correctly identifies that HTML5 is the newer version and mentions a few semantic elements, it misses key technical differences between HTML and HTML5 (such as native support for audio/video, better error handling, and doctype simplification). \n\nStrengths:\nThe candidate correctly recognized that HTML5 is the current version and provided examples of semantic elements (`header`, `footer`), showing a basic understanding of the topic.\n\nImprovements:\nThe candidate should provide more detail by explaining *why* HTML5 is better (e.g., multimedia support without plugins). Also, they should be more precise with tag names—`navbar` is commonly written as `<nav>` in HTML5."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "How do you center a div horizontally and vertically using CSS?",
+          "answer": "using flex property",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 4/10\n\nFeedback:\nThe candidate's answer is on the right track, as Flexbox is a modern and correct way to center a div. However, the answer is too brief and lacks the specific CSS properties required to actually achieve both horizontal and vertical centering.\n\nStrengths:\n- Identified a modern and effective CSS tool (Flexbox) for solving the centering problem.\n\nImprovements:\n- Provide the complete solution by mentioning the specific properties needed, such as `display: flex`, `justify-content: center`, and `align-items: center`. \n- Be more descriptive in technical interviews rather than giving a one-word or partial answer."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is the difference between `let`, `const`, and `var` in JavaScript?",
+          "answer": "no iidea''\n",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate was unable to answer the question, stating they had no idea. This is a fundamental concept in JavaScript that is expected of anyone applying for a programming role.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to study JavaScript basics, specifically variable declarations (`var`, `let`, `const`), scope (function vs. block scope), and hoisting."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is the DOM (Document Object Model), and how do you select an element from it using JavaScript?",
+          "answer": "efwefef",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer consists of random letters (\"efwefef\") and does not provide any information about the DOM or how to select elements in JavaScript. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually answer the question by defining the DOM and providing examples of JavaScript selection methods like `document.getElementById()` or `document.querySelector()`."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "What are CSS media queries, and how are they used in responsive web design?",
+          "answer": "ererer",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"ererer\") is completely nonsensical and does not provide any information regarding CSS media queries or responsive web design. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually read the question and provide a relevant, thoughtful answer. For this specific question, they should explain that CSS media queries allow developers to apply different styles based on device characteristics (like screen width), which is a core concept in making websites responsive."
+          }
+        }
+      ],
+      "date": "2026-09-29T19:29:27.086Z",
+      "id": "UAoq1LOLCjw"
+    },
+    {
+      "role": "Full Stack Developer",
+      "experience": "Fresher",
+      "difficulty": "Easy",
+      "interviewType": "Technical",
+      "score": 0,
+      "totalQuestions": 5,
+      "answeredQuestions": 5,
+      "answers": [
+        {
+          "questionId": 1,
+          "question": "What is the difference between HTML and HTML5, and can you name a few new semantic elements introduced in HTML5?",
+          "answer": "hdhdjj",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"hdhdjj\") is complete gibberish and does not address the interview question at all. It shows a lack of understanding or lack of seriousness.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually answer the question being asked. To answer this specific question, they should explain that HTML5 is the latest version of HTML with support for multimedia and better structure, and name semantic tags like `<header>`, `<footer>`, `<article>`, and `<section>`."
+          }
+        },
+        {
+          "questionId": 2,
+          "question": "Explain the difference between `let`, `const`, and `var` in JavaScript.",
+          "answer": "dhasfk",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"dhasfk\") is gibberish and does not address the interview question at all. It shows a complete lack of knowledge regarding JavaScript variable declarations.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually study and answer the question rather than typing random characters. For a technical interview, they should understand the basic differences between `var`, `let`, and `const` (such as scope, hoisting, and re-assignment)."
+          }
+        },
+        {
+          "questionId": 3,
+          "question": "What is CSS Box Model, and what are its core components?",
+          "answer": "ttyulfhwjs",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"ttyulfhwjs\") is completely unintelligible and appears to be random keyboard smashing. It contains no relevant information about the CSS Box Model.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually read the question and provide a relevant, thoughtful answer. For a technical question like this, they should explain that the CSS Box Model is a design layout concept and list its core components (Content, Padding, Border, and Margin)."
+          }
+        },
+        {
+          "questionId": 4,
+          "question": "What is the role of an API (Application Programming Interface) in web development, and what does HTTP GET request do?",
+          "answer": "resdfg",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"resdfg\") is completely incoherent and does not address either part of the interview question regarding APIs or HTTP GET requests. \n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually read and answer the interview questions provided. To prepare, they should study the basics of web development, specifically learning what an API is (a way for different software systems to communicate) and what an HTTP GET request does (retrieves data from a server)."
+          }
+        },
+        {
+          "questionId": 5,
+          "question": "What is the primary difference between SQL (Relational) and NoSQL (Non-relational) databases?",
+          "answer": "fdswer",
+          "evaluation": {
+            "success": true,
+            "evaluation": "Score: 0/10\n\nFeedback:\nThe candidate's answer (\"fdswer\") is complete gibberish and does not address the interview question at all. It appears to be random keyboard smashing.\n\nStrengths:\nNone.\n\nImprovements:\nThe candidate needs to actually read the question and provide a relevant answer. For this specific question, they should explain that SQL databases are relational, use structured tables with predefined schemas, and scale vertically, while NoSQL databases are non-relational, handle unstructured or semi-structured data using flexible formats like JSON, and scale horizontally."
+          }
+        }
+      ],
+      "date": "2026-09-30T14:17:22.465Z",
+      "id": "_2VXJWZTH5E"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
